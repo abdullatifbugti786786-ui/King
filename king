@@ -1,6 +1,113 @@
 #!/bin/bash
+while true; do
 clear
-echo "=============================="
-echo "      WELCOME KING BOSS       "
-echo "=============================="
+# Colors
+green='\e[1;32m'
+blue='\e[1;34m'
+red='\e[1;31m'
+white='\e[1;37m'
+
+echo -e "${red}"
+echo "  ____  _   _  ____ _____ ___ "
+echo " | __ )| | | |/ ___|_   _|_ _|"
+echo " |  _ \| | | | |  _  | |  | | "
+echo " | |_) | |_| | |_| | | |  | | "
+echo " |____/ \___/ \____| |_| |___|"
+echo -e "${pink}=============================="
+echo -e "${yellow}[*] Developer : BUGTI"
+echo -e "${green}[*] Version   : 1.0.0"
+echo -e "${pink}------------------------------"
+echo -e "${green}[1] File Cracking"
+echo -e "${green}[2] Random Cracking"
+echo -e "${green}[3] Old Ids Cracking"
+echo -e "${green}[4] File Making"
+echo -e "${green}[5] Gmail Create ${red}[Fresh]"
+echo -e "${red}[0] Exit Tool"
+echo -e "${blue}------------------------------"
+read -p "[?] Input Option : " choice
+
+if [ "$choice" == "1" ]; then
+    echo -e "${green}Starting File Cracking..."
+    sleep 3
+elif [ "$choice" == "0" ]; then
+    clear
+    exit
+else
+    echo -e "${red}Invalid Option!"
+    sleep 2
+fi
+done
+#!/bin/bash
+# Tool Loop mein dalne ke liye
+while true; do
+clear
+# Colors
+green='\e[1;32m'
+blue='\e[1;34m'
+red='\e[1;31m'
+white='\e[1;37m'
+
+echo -e "${blue}=============================="
+echo -e "${green}      WELCOME KING BOSS       "
+echo -e "${blue}=============================="
+echo -e "${red}[*] Developer : BUGTI"
+echo -e "${white}[*] Version   : 1.0.0"
+echo -e "${blue}------------------------------"
+echo -e "${green}[1] File Cracking"
+echo -e "${green}[2] Random Cracking"
+echo -e "${green}[3] Old Ids Cracking"
+echo -e "${green}[4] File Making"
+echo -e "${green}[5] Gmail Create ${red}[Fresh]"
+echo -e "${red}[0] Exit Tool"
+echo -e "${blue}------------------------------"
+read -p "[?] Input Option : " choice
+
+if [ "$choice" == "1" ]; then
+    echo -e "${green}Starting File Cracking..."
+    sleep 3  # 3 seconds tak message dikhayega
+elif [ "$choice" == "2" ]; then
+    echo -e "${green}Starting Random Cracking..."
+    sleep 3
+elif [ "$choice" == "0" ]; then
+    clear
+    exit
+else
+    echo -e "${red}Invalid Option!"
+    sleep 2
+fi
+done
+
+
+
+#!/bin/bash
+clear
+# Colors
+green='\e[1;32m'
+blue='\e[1;34m'
+red='\e[1;31m'
+white='\e[1;37m'
+
+echo -e "${blue}=============================="
+echo -e "${green}      WELCOME KING BOSS       "
+echo -e "${blue}=============================="
+echo -e "${white}[*] Developer : BUGTI"
+echo -e "${white}[*] Version   : 1.0.0"
+echo -e "${blue}------------------------------"
+echo -e "${green}[1] File Cracking"
+echo -e "${green}[2] Random Cracking"
+echo -e "${green}[3] Old Ids Cracking"
+echo -e "${green}[4] File Making"
+echo -e "${green}[5] Gmail Create ${red}[Fresh]"
+echo -e "${red}[0] Exit Tool"
+echo -e "${blue}------------------------------"
+read -p "[?] Input Option : " choice
+
+if [ "$choice" == "1" ]; then
+    echo -e "${green}Starting File Cracking..."
+elif [ "$choice" == "0" ]; then
+    exit
+else
+    echo -e "${red}Invalid Option!"
+    king
+fi
 
